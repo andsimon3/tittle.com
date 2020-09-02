@@ -15,7 +15,7 @@
   left: 0;
 }
 #ProfMenuUp{
-  width: 16rem;
+  width: 17rem;
   height: inherit;
 }
 .App{
@@ -29,6 +29,7 @@
   border-radius: 100%;
   border:       #c9c7da solid 0px;
   border-width:     0px 3px 0px 0px;
+  margin-left: 1rem; 
 }
 #MenuUpButton{
   height: inherit;
