@@ -15,9 +15,12 @@ function App() {
   rnderNavigationMenu(){
     if 
   }*/
+  window.onload = function() {
   ReactDOM.render(
     <ProfileFragment />, 
     document.getElementById('MainBlock'));
+   // Ваш скрипт
+};
   return (
     <div className="App">
       <div id='MenuUp'>
