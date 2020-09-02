@@ -13,7 +13,7 @@ function App() {
       <div id='MenuUp'>
         <div id='ProfMenuUp'>
           <img src={GuestAva} id='MenuUpAvatar' align="left"/>
-          <div>
+          <div id='MenuUpSpan'>
             <span>{Username}</span><br />
             <span>{Status}</span>
           </div>

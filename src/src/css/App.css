@@ -36,3 +36,6 @@
 #MainBlock{
   height: 5000px;
 }
+#MenuUpSpan{
+  height: inherit;
+}
