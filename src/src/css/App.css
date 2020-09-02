@@ -12,4 +12,6 @@
 .App{
   background-color: #0f0f2d;
   color: #c9c7da;
+  width: 100%;
+  height: 100%;
 }
