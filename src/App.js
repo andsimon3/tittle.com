@@ -18,7 +18,7 @@ function App() {
             <span>{Username}</span><br />
             <span>{Status}</span>
           </div>
-          <button id='MenuUpButton'>\/</button>
+          <img src={ChooseArrow} id='MenuUpButton' />
         </div>
         <div>
           N
