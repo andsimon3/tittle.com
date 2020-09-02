@@ -61,16 +61,32 @@
   margin-right: 0.5rem; 
   bottom: 0.5rem;
 }
-.NavigationButton{
+.Short{
   height: inherit;
   width: 3rem;
 }
-.NButtonImg{
+.NButtonImgShort{
   width: 2rem;
   margin: 0 auto;
   height: 2rem;
 }
-.NButtonText{
+.NButtonTextShort{
+  width: 3rem;
+  font-size: 0.6rem;
+  height: 1rem;
+  position: relative;
+  bottom: 1rem;
+}
+.Long{
+  height: 9rem;
+  width: 3rem;
+}
+.NButtonImgShortLong{
+  width: 2rem;
+  margin: 0 auto;
+  height: 2rem;
+}
+.NButtonTextLong{
   width: 3rem;
   font-size: 0.6rem;
   height: 1rem;

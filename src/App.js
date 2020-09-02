@@ -1,8 +1,10 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './src/css/App.css';
 import GuestAva from './src/img/guest.svg';
 import ChooseArrow from './src/img/arrowdown.svg';
 import NewsIcon from './src/img/news.svg';
+import ProfileFragment from './src/fragments/Profile.js'
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
@@ -10,6 +12,11 @@ var Username = 'Симонов Андрей';
 var Status = 'offline';
 
 function App() {
+  /*TODO: Сделать разную навигация на разных экранах И разную полоску уведомлений!!!
+  rnderNavigationMenu(){
+    if 
+  }*/
+  ReactDOM.render(<ProfileFragment />, document.getElementById('MainBlock'));
   return (
     <div className="App">
       <div id='MenuUp'>
@@ -27,7 +34,7 @@ function App() {
       </div>
       <div id='MainBlock'></div>
       <div id='MenuDown'>
-        <div class='NavigationButton'>
+        <div class={NavMenuStyle}>
           <img src={NewsIcon} class='NButtonImg'/>
           <span class='NButtonText'>Новости</span>
         </div>
