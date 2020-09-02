@@ -12,14 +12,17 @@ function App() {
     <div className="App">
       <div id='MenuUp'>
         <div id='ProfMenuUp'>
-          <img src={GuestAva} id='MenuUpAvatar'/>
-          <span>{Username}</span>
+          <img src={GuestAva} id='MenuUpAvatar' align="left"/>
+          <span>{Username}</span><br />
           <span>{Status}</span>
         </div>
       </div>
       <div>
         N
       </div>
+
+
+
     </div>
   );
 }
