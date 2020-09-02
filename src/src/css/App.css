@@ -68,10 +68,10 @@
 .NButtonImg{
   width: 2rem;
   margin: 0 auto;
-  height: auto;
+  height: 2rem;
 }
 .NButtonText{
   width: 3rem;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   height: 1rem;
 }
