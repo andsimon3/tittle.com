@@ -6,7 +6,7 @@ import GuestAva from './src/img/guest.svg';
 
 var Username = 'Guest';
 var Status = 'offline';
-
+console.log(1);
 function App() {
   return (
     <div className="App">
