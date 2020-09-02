@@ -45,7 +45,7 @@
   background-color:   #0f0f2d;
 }
 #MainBlock{
-  overflow: scroll;
+  overflow-y: scroll;
   top: 3rem;
   width: 100vw;
   height: calc(100vh-6rem);
