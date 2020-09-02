@@ -38,6 +38,9 @@
   display:      inline;
   border-width:     0px 1px 0px 1px;
 }
+#MenuUpButton:hover{
+  background-color:   #0f0f2d;
+}
 #MainBlock{
   top: 3rem;
   height: 5000px;
