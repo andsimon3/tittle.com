@@ -5,7 +5,7 @@ import ChooseArrow from './src/img/arrowdown.svg';
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
-var Username = 'Guest';
+var Username = 'Симонов Андрей';
 var Status = 'offline';
 
 function App() {
