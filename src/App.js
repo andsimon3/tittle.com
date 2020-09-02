@@ -19,13 +19,14 @@ function App() {
           </div>
           <button id='MenuUpButton'>\/</button>
         </div>
+        <div>
+          N
+        </div>
       </div>
-      <div>
-        N
+      <div id='MainBlock'></div>
+      <div id='MenuDown'>
+        123213
       </div>
-
-
-
     </div>
   );
 }
