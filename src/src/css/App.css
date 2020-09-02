@@ -54,7 +54,7 @@
 }
 #MenuUpSpan{
   position: relative;
-  display:      inline;
+  display:      inline-block;
   height: inherit;
   width: 10rem;
   margin-right: 0.5rem; 
