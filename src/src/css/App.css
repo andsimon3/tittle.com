@@ -29,7 +29,7 @@
   border-radius: 100%;
   border:       #c9c7da solid 0px;
   border-width:     0px 3px 0px 0px;
-  margin-left: 1rem; 
+  margin-right: 0.5rem; 
 }
 #MenuUpButton{
   height: inherit;
@@ -45,4 +45,5 @@
 #MenuUpSpan{
   height: inherit;
   width: 10rem;
+  margin-right: 0.5rem; 
 }
