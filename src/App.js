@@ -5,7 +5,7 @@ import ChooseArrow from './src/img/arrowdown.svg';
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
-var Username = 'Guest';
+var Username = 'Симонов Андрей';
 var Status = 'offline';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <div id='ProfMenuUp'>
           <img src={GuestAva} id='MenuUpAvatar' align="left"/>
           <div id='MenuUpSpan'>
-            <span>{Username}</span><br />
+            <span><nobr>{Username}</nobr></span><br />
             <span>{Status}</span>
           </div>
           <img src={ChooseArrow} id='MenuUpButton' />
