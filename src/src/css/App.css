@@ -27,6 +27,8 @@
   overflow: hidden;
 }
 #MenuUpAvatar{
+  position: relative;
+  display:      inline;
   width: auto;
   height: inherit;
   border-radius: 100%;
@@ -35,11 +37,11 @@
   margin-right: 0.5rem; 
 }
 #MenuUpButton{
+  position: relative;
   height: inherit;
   width: 3rem;
   padding:      0;
   display:      inline;
-  border-width:     0px 1px 0px 1px;
 }
 #MenuUpButton:hover{
   background-color:   #0f0f2d;
@@ -51,6 +53,8 @@
   height: calc(100vh-6rem);
 }
 #MenuUpSpan{
+  position: relative;
+  display:      inline;
   height: inherit;
   width: 10rem;
   margin-right: 0.5rem; 
