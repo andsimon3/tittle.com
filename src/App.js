@@ -1,6 +1,6 @@
 import React from 'react';
 import './src/css/App.css';
-import GuestAva './src/img/guest.svg';
+import GuestAva from './src/img/guest.svg';
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
