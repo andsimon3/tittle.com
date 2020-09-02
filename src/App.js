@@ -15,7 +15,7 @@ function App() {
   rnderNavigationMenu(){
     if 
   }*/
-  window.onload = function() {
+  window.onload = function() {//ONLOAD!
   ReactDOM.render(
     <ProfileFragment />, 
     document.getElementById('MainBlock'));
