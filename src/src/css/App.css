@@ -15,7 +15,7 @@
   left: 0;
 }
 #ProfMenuUp{
-  width: 20rem;
+  width: 16rem;
   height: inherit;
 }
 .App{
@@ -40,4 +40,5 @@
 }
 #MenuUpSpan{
   height: inherit;
+  width: 10rem;
 }
