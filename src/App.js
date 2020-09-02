@@ -2,6 +2,7 @@ import React from 'react';
 import './src/css/App.css';
 import GuestAva from './src/img/guest.svg';
 import ChooseArrow from './src/img/arrowdown.svg';
+import NewsIcon from './src/img/news.svg';
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
@@ -26,21 +27,10 @@ function App() {
       </div>
       <div id='MainBlock'></div>
       <div id='MenuDown'>
-        <div class='menuUpButton'>
-      <label style='margin: 0 auto;'><img src='src/img/news.svg'  id='ImgMenuUp'/>
-      <a id='LabelMenuUp'>Новости</a></label>
-    </div>
-
-    <div class='menuUpButton'>
-      <label style='margin: 0 auto;'><img src='src/img/massages.svg'  id='ImgMenuUp'/>
-      <a id='LabelMenuUp'>Сообщения</a></label>
-    </div>
-
-    <div class='menuUpButton'>
-      <label style='margin: 0 auto;'><img src='src/img/settings.svg'  id='ImgMenuUp'/>
-      <a id='LabelMenuUp'>Настройки</a></label>
-    </div>
-
+        <div class='NavigationButton'>
+          <img src='NewsIcon' class='NButtonImg'/>
+          <span class='NButtonText'>Новости</span>
+        </div>
       </div>
     </div>
   );
