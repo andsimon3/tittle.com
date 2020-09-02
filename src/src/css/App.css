@@ -16,7 +16,7 @@
   left: 0;
 }
 #ProfMenuUp{
-  width: 17rem;
+  width: calc(17rem+5px);
   height: inherit;
 }
 .App{
