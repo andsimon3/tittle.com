@@ -3,9 +3,9 @@ import React from 'react';
 function Profile() {
 	return(
 		<div>
-			<span>Profile</span>
+			Profile
 		</div>
-	)
+	);
 }
 
 export default Profile;
