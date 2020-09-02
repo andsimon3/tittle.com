@@ -17,6 +17,9 @@ function App() {
           <span>{Status}</span>
         </div>
       </div>
+      <div>
+        N
+      </div>
     </div>
   );
 }
