@@ -34,7 +34,7 @@ function App() {
       </div>
       <div id='MainBlock'></div>
       <div id='MenuDown'>
-        <div class={NavMenuStyle}>
+        <div class='{NavMenuStyle}'>
           <img src={NewsIcon} class='NButtonImg'/>
           <span class='NButtonText'>Новости</span>
         </div>
