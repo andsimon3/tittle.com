@@ -74,4 +74,6 @@
   width: 3rem;
   font-size: 0.6rem;
   height: 1rem;
+  position: relative;
+  bottom: 1rem;
 }
