@@ -17,9 +17,7 @@ function App() {
     if 
   }*/
   ReactDOM.render(
-  <React.StrictMode>
-    <ProfileFragment />
-  </React.StrictMode>, 
+    <ProfileFragment />, 
     document.getElementById('MainBlock'));
   return (
     <div className="App">
