@@ -16,7 +16,11 @@ function App() {
   rnderNavigationMenu(){
     if 
   }*/
-  //ReactDOM.render(<ProfileFragment />, document.getElementById('MainBlock'));
+  ReactDOM.render(
+  <React.StrictMode>
+    <ProfileFragment />
+  </React.StrictMode>, 
+    document.getElementById('MainBlock'));
   return (
     <div className="App">
       <div id='MenuUp'>
