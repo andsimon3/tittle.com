@@ -13,8 +13,11 @@ function App() {
       <div id='MenuUp'>
         <div id='ProfMenuUp'>
           <img src={GuestAva} id='MenuUpAvatar' align="left"/>
-          <span>{Username}</span><br />
-          <span>{Status}</span>
+          <div>
+            <span>{Username}</span><br />
+            <span>{Status}</span>
+          </div>
+          <button id='MenuUpButton'>\/</button>
         </div>
       </div>
       <div>
