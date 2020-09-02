@@ -6,12 +6,12 @@ import GuestAva from './src/img/guest.svg';
 
 var Username = 'Guest';
 var Status = 'offline';
-console.log(1);
+
 function App() {
   return (
     <div className="App">
       <div id='MenuUp'>
-        <div>
+        <div id='ProfMenuUp'>
           <img src={GuestAva} id='MenuUpAvatar'/>
           <span>{Username}</span>
           <span>{Status}</span>
