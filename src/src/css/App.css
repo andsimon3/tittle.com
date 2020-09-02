@@ -31,6 +31,8 @@
 #MenuUpButton{
   height: inherit;
   width: 3rem;
+  padding:      0;
+  display:      inline;
 }
 #MainBlock{
   top: 3rem;
