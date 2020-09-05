@@ -5,7 +5,7 @@
 }
 #ProfileAvatar{
 	width: calc(17rem+10px);
-	border: sold #c9c7da 1px;
+	border: solid #c9c7da 1px;
 }
 #ProfileDesc{
 	width: calc(100%-17rem-11px);
