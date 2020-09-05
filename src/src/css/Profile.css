@@ -7,3 +7,7 @@
 	width: calc(17rem+10px);
 	border: sold #c9c7da 1px;
 }
+#ProfileDesc{
+	width: calc(100%-17rem-11px);
+	height: calc(17rem+11px);
+}
