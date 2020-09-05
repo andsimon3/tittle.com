@@ -9,8 +9,10 @@
 	border-width: 0 0 1px 1px;
 }
 #ProfileText{
+	position: relative;
+	left: calc(17rem+11px);
 	width: calc(100%-17rem-11px);
-	height: calc(17rem+11px);
+	height: calc(17rem+10px);
 	border: solid #c9c7da 1px;
 	border-width: 0 0 1px 0;
 }
