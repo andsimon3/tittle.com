@@ -6,7 +6,7 @@
 #ProfileAvatar{
 	width: calc(17rem+10px);
 	border: solid #c9c7da 1px;
-	border-width: 0 0 1px 1px;
+	border-width: 0 1px 1px 0;
 }
 #ProfileText{
 	position: relative;
