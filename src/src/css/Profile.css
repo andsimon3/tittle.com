@@ -8,7 +8,7 @@
 	border: solid #c9c7da 1px;
 	border-width: 0 0 1px 1px;
 }
-#ProfileDesc{
+#ProfileText{
 	width: calc(100%-17rem-11px);
 	height: calc(17rem+11px);
 	border: solid #c9c7da 1px;
