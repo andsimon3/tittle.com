@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Profile.css';
 import GuestAva from '../img/guest.svg';
 
-var Username = 'Симонов Андрей';
+var Username = 'Имя Фамилия';
 var Status = 'offline';
 
 

@@ -8,7 +8,7 @@ import ProfileFragment from './src/fragments/Profile.js'
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
-var Username = 'Симонов Андрей';
+var Username = 'Имя Фамилия';
 var Status = 'offline';
 function App() {
   /*TODO: Сделать разную навигация на разных экранах И разную полоску уведомлений!!!
