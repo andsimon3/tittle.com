@@ -5,4 +5,5 @@
 }
 #ProfileAvatar{
 	width: calc(17rem+10px);
+	border: sold #c9c7da 1px;
 }

@@ -10,7 +10,7 @@ function ProfileFragment(prop) {
 	return (
 		<div>
 			<div id='ProfileHeader'>
-				<img src={GuestAva} id='ProfileAvatar'/>
+				<img src={GuestAva} id='ProfileAvatar' align="left" />
 				<span>
 					{Username+' '+Status}
 				</span>
