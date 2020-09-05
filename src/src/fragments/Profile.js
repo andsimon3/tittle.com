@@ -5,7 +5,7 @@ function ProfileFragment(prop) {
 	return (
 		<div>
 			<div id='ProfileHeader'>
-				<img />
+				<img id='ProfileAvatar'/>
 				<span>
 					
 				</span>

@@ -3,3 +3,6 @@
 	width: 100%;
 	height: 20%;
 }
+#ProfileAvatar{
+	width: calc(17rem+10px);
+}
