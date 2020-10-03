@@ -49,6 +49,14 @@
 #MenuUpButton:hover{
   background-color:   #0f0f2d;
 }
+#ProfileBlock{
+  position: relative;
+  display: inline-block;
+}
+#ProfileBlock:hover{
+  position: absolute;
+  display: block;
+}
 #MainBlock{
   top: 3rem;
   width: 100vw;

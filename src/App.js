@@ -19,12 +19,6 @@ function App() {
   ReactDOM.render(
     <ProfileFragment />, 
     document.getElementById('MainBlock'));
-    document.getElementById('MenuUpButton').onmouseover= function(){
-      document.getElementById('ProfileBlock').style.display= 'block';
-    }
-    document.getElementById('MenuUpButton').onmouseout= function(){
-      document.getElementById('ProfileBlock').style.display= 'none';
-    }
 };
   return (
     <div className="App">
@@ -36,13 +30,13 @@ function App() {
             <span>{Status}</span>
           </div>
           <img src={ChooseArrow} id='MenuUpButton' />
+          <div id="ProfileBlock">
+            123
+          </div>
         </div>
         <div>
           N
         </div>
-      </div>
-      <div id="ProfileBlock" style={{display:'none'}}>
-        123
       </div>
       <div id='MainBlock'>
       </div>
