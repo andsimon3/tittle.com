@@ -8,12 +8,11 @@ import ProfileFragment from './src/fragments/Profile.js'
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
-document.cookie = "user = Guest"
 var Username = 'Имя Фамилия';
 var Status = 'offline';
 function App() {
   /*TODO: Сделать разную навигация на разных экранах И разную полоску уведомлений!!!
-  rnderNavigationMenu(){
+  renderNavigationMenu(){
     if 
   }*/
   window.onload = function() {//ONLOAD!
@@ -37,7 +36,9 @@ function App() {
           N
         </div>
       </div>
-      <div id='MainBlock'></div>
+      <div id='MainBlock'>
+        {ProfileFragment}
+      </div>
       <div id='MenuDown'>
         <div class='{NavMenuStyle}'>
           <img src={NewsIcon} class='NButtonImg'/>
