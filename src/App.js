@@ -37,7 +37,6 @@ function App() {
         </div>
       </div>
       <div id='MainBlock'>
-        {ProfileFragment}
       </div>
       <div id='MenuDown'>
         <div class='{NavMenuStyle}'>

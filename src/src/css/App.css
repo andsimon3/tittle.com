@@ -18,6 +18,8 @@
 #ProfMenuUp{
   width: calc(17rem+10px);
   height: inherit;
+  border:       #c9c7da solid 1px;
+  border-width:     0px 1px 0px 0px;
 }
 .App{
   background-color: #0f0f2d;
