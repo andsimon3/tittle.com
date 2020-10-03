@@ -8,6 +8,7 @@ import ProfileFragment from './src/fragments/Profile.js'
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
+document.cookie = "user = Guest"
 var Username = 'Имя Фамилия';
 var Status = 'offline';
 function App() {
