@@ -38,7 +38,7 @@ function App() {
           N
         </div>
       </div>
-      <div id="ProfileBlock" style={display:none;}>
+      <div id="ProfileBlock" style={{display:'none'}}>
         123
       </div>
       <div id='MainBlock'>
