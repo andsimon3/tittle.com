@@ -22,6 +22,9 @@ function App() {
     document.getElementById('MenuUpButton').onmouseover= function(){
       document.getElementById('ProfileBlock').style.display= 'block';
     }
+    document.getElementById('MenuUpButton').onmouseout= function(){
+      document.getElementById('ProfileBlock').style.display= 'none';
+    }
 };
   return (
     <div className="App">
