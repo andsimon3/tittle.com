@@ -19,7 +19,9 @@ function App() {
   ReactDOM.render(
     <ProfileFragment />, 
     document.getElementById('MainBlock'));
-   // Ваш скрипт
+    document.getElementById('MenuUpButton').onmouseover= {
+      document.getElementById('ProfileBlock').style.display= 'block';
+    }
 };
   return (
     <div className="App">
@@ -35,6 +37,9 @@ function App() {
         <div>
           N
         </div>
+      </div>
+      <div id="ProfileBlock" style="display:none;">
+        123
       </div>
       <div id='MainBlock'>
       </div>
