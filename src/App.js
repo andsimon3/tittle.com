@@ -4,7 +4,7 @@ import './src/css/App.css';
 import GuestAva from './src/img/guest.svg';
 import ChooseArrow from './src/img/arrowdown.svg';
 import NewsIcon from './src/img/news.svg';
-import ProfileFragment from './src/fragments/Profile.js'
+import ProfileFragment from './src/fragments/Profile.js';
 //{window.navigator.language.slice(0, 2)}
 //try{}
 
