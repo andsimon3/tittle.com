@@ -19,7 +19,7 @@ function App() {
   ReactDOM.render(
     <ProfileFragment />, 
     document.getElementById('MainBlock'));
-    document.getElementById('MenuUpButton').onmouseover= {
+    document.getElementById('MenuUpButton').onmouseover= function(){
       document.getElementById('ProfileBlock').style.display= 'block';
     }
 };
