@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './src/css/App.css';
 import GuestAva from './src/img/guest.svg';
-import ChooseArrow from './src/img/arrowdown.svg';
 import NewsIcon from './src/img/news.svg';
 import ProfileFragment from './src/fragments/Profile.js';
 //{window.navigator.language.slice(0, 2)}
@@ -29,7 +28,6 @@ function App() {
             <span><nobr>{Username}</nobr></span><br />
             <span>{Status}</span>
           </div>
-          <img src={ChooseArrow} id='MenuUpButton' />
           <div id="ProfileBlock">
             123
           </div>
