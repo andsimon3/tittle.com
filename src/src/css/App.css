@@ -41,6 +41,7 @@
 }
 #ProfileBlock{
   position: relative;
+  width: calc(17rem+10px);
   display: inline-block;
 }
 #ProfileBlock:hover{
