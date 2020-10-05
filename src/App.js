@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <div id='MenuUp'>
-        <div id='ProfMenuUp'>
+        <div id='ProfMenuUp' onClick={{document.getElementById('ProfileBlock').style.display = 'block';}}>
           <img src={GuestAva} id='MenuUpAvatar' align="left"/>
           <div id='MenuUpSpan'>
             <span><nobr>{Username}</nobr></span><br />

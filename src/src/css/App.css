@@ -42,12 +42,6 @@
   width: inherit;
   display: none;
 }
-#ProfileMenuUp:hover > #ProfileBlock{
-  display: inherit;
-}
-#ProfileBlock:hover{
-  display: inherit;
-}
 #MainBlock{
   top: 3rem;
   width: 100vw;
