@@ -41,12 +41,14 @@
 }
 #ProfileBlock{
   position: relative;
-  width: calc(17rem+10px);
-  display: inline-block;
+  width: inherit;
+  display: none;
+}
+#ProfileMenuUp:hover > #ProfileBlock{
+  display: inherit;
 }
 #ProfileBlock:hover{
-  position: absolute;
-  display: block;
+  display: inherit;
 }
 #MainBlock{
   top: 3rem;

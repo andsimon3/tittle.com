@@ -29,7 +29,8 @@ function App() {
             <span>{Status}</span>
           </div>
           <div id="ProfileBlock">
-            123
+            123<br />
+            456
           </div>
         </div>
         <div>
